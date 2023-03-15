@@ -1,0 +1,67 @@
+body{
+    background-color: #282D35;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.navy{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 5px 10px rgb(20, 20, 20);
+    background-color: #21222A
+    
+}
+.logotext {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.pics{
+
+    width:60px;
+    color: aquamarine;
+}
+.text{
+    color: bisque;
+}
+
+main {
+  color: white;
+  padding: 57px 27px;
+  background-image: url(./logo512.png);
+  background-repeat: no-repeat;
+  background-position: right -75%;
+  background-position-x: right 30%;
+  /* background-size: 30%; */
+
+
+
+
+
+
+}
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+.main--facts {
+    margin-top: 46px;
+}
+
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
